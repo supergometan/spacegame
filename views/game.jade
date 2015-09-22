@@ -1,0 +1,11 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/game.css')
+    script(src='/javascripts/three.min.js')
+    script(src='/javascripts/jquery.min.js')
+    script(src='https://cdn.socket.io/socket.io-1.2.0.js')
+    script(src='/javascripts/game.js')
+    script(src='/javascripts/main.js')
+  body(onload='init()')
